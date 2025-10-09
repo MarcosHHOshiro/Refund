@@ -1,5 +1,7 @@
-const amount = document.getElementById("amount"); 
+const amount = document.getElementById("amount");
 
 amount.oninput = () => {
-    console.log("novo")
+    let value = amount.value.replace(/\D/g, "");
+
+    amount.value = value;
 }
