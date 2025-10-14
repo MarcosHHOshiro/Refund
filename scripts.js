@@ -47,7 +47,8 @@ form.onsubmit = (event) => {
 
 function expenseAdd(newExpense) {
     try {
-
+        //Cria o elemnto li
+        
     } catch (error) {
         alert("Não foi possível adicionar a despesa.")
         console.error(error)
